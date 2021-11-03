@@ -1,13 +1,11 @@
-import styled from '@emotion/styled';
-
-const Heading = styled.h1`
-  color: red;
-`;
+import Layout from '../components/layout/Layout';
 
 const Home = () => {
   return (
     <div>
-      <Heading>Soy un header</Heading>
+      <Layout>
+        <h2>Inicio</h2>
+      </Layout>
     </div>
   );
 };
