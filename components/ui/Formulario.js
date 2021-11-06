@@ -38,3 +38,15 @@ export const InputSubmit = styled.input`
     cursor: pointer;
   }
 `;
+
+export const Error = styled.p`
+  padding: 1rem;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: red;
+`;
